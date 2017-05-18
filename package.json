@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-notes",
+  "version": "1.0.0",
+  "main": "notes.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0"
+  },
+  "scripts": {
+    "build": "babel src/notes.js --out-file notes.js"
+  }
+}
